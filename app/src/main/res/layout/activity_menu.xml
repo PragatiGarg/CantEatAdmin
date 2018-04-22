@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.admintry2.MenuActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4ED1FD"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="8sp"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <ListView
+        android:id="@+id/listViewFood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView2"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10sp"
+        android:paddingTop="10dp"/>
+
+
+
+
+</RelativeLayout>
